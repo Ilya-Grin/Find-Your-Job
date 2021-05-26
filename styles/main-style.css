@@ -204,6 +204,8 @@ h6 {
 
 .card-icon {
 	fill: #111238;
+	width: 24px;
+	height: 24px;
 	margin: 0 0 15px 0;
 	transition: fill 0.2s;
 }
