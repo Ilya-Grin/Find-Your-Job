@@ -179,7 +179,7 @@ h6 {
 	font-weight: bold;
 	font-size: 24px;
 	line-height: 29px;
-	margin: 0 0 40px 0;
+	margin: 70px 0 40px 0;
 }
 
 .card {
@@ -209,4 +209,77 @@ h6 {
 	height: 24px;
 	margin: 0 0 15px 0;
 	transition: fill 0.2s;
+}
+
+.button-coin {
+	padding: 10px 25px;
+}
+
+.case {
+	padding: 30px;
+	border: 1px solid #c5c9d5;
+	border-radius: 10px;
+	margin: 0 0 20px 0;
+}
+
+.case:last-child {
+	margin: 0;
+}
+
+.case__title {
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 19px;
+}
+
+.case__subtitle {
+	font-size: 14px;
+	line-height: 17px;
+}
+
+.details {
+	font-size: 14px;
+	line-height: 17px;
+	color: #1a75e8;
+	margin: 0 0 0 176px;
+}
+
+.button-container {
+	margin: 55px 0 95px 0;
+}
+
+.mail {
+	background: #f2f3f6;
+	padding: 47px 0 65px 0;
+}
+
+.mailing {
+	text-align: center;
+}
+
+.mailing__box {
+	padding: 0 48px 0 48px;
+}
+
+.footer {
+	padding: 70px 0 100px 0;
+}
+
+.footer__text {
+	font-size: 12px;
+	line-height: 140%;
+	color: #b2b2b2;
+	margin: 20px 0 0 0;
+}
+
+.footer__title {
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 19px;
+	margin: 0 0 15px 0;
+}
+
+.footer__subtitle {
+	display: block;
+	margin: 0 0 10px 0;
 }
