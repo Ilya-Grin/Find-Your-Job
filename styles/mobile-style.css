@@ -39,6 +39,23 @@
 	.card {
 		margin: 0 0 30px 0;
 	}
+
+	.menu {
+		display: none;
+	}
+
+	.burger {
+		display: block;
+		text-align: right;
+	}
+
+	.disable {
+		display: none;
+	}
+
+	.enable {
+		display: block;
+	}
 }
 
 @media (max-width: 768px) {
