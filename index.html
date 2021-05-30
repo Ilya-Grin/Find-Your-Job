@@ -20,6 +20,7 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700;900&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="styles/main-style.css">
+	<link rel="stylesheet" href="styles/mobile-style.css">
 </head>
 <!--Main Content-->
 
@@ -65,7 +66,7 @@
 					</div>
 				</div>
 				<div class="col-6">
-					<img src="img/hero-image.svg" alt="image: peopls with laptops">
+					<img class="header-image" src="img/hero-image.svg" alt="image: peopls with laptops">
 				</div>
 			</div>
 		</div>
@@ -74,8 +75,8 @@
 	<section class="section">
 		<div class="container">
 			<h2 class="section-title">Категории</h2>
-			<div class="row pb-5">
-				<div class="col-2">
+			<div class="row display-center pb-5">
+				<div class="col-xl-2 col-lg-4 col-md-6 col-sm-12">
 					<a href="#" class="card">
 						<svg class="card-icon">
 							<use href="img/icons.svg#brush" class="card-image"></use>
@@ -83,7 +84,7 @@
 						<span class="card-text">Дизайн</span>
 					</a>
 				</div>
-				<div class="col-2">
+				<div class="col-xl-2 col-lg-4 col-md-6 col-sm-12">
 					<a href="#" class="card">
 						<svg class="card-icon">
 							<use href="img/icons.svg#browser" class="card-image"></use>
@@ -91,7 +92,7 @@
 						<span class="card-text">Разработка</span>
 					</a>
 				</div>
-				<div class="col-2">
+				<div class="col-xl-2 col-lg-4 col-md-6 col-sm-12">
 					<a href="#" class="card">
 						<svg class="card-icon">
 							<use href="img/icons.svg#edit1" class="card-image"></use>
@@ -99,7 +100,7 @@
 						<span class="card-text">Копирайтинг</span>
 					</a>
 				</div>
-				<div class="col-2">
+				<div class="col-xl-2 col-lg-4 col-md-6 col-sm-12">
 					<a href="#" class="card">
 						<svg class="card-icon">
 							<use href="img/icons.svg#fingerprint" class="card-image"></use>
@@ -107,7 +108,7 @@
 						<span class="card-text">Безопасность</span>
 					</a>
 				</div>
-				<div class="col-2">
+				<div class="col-xl-2 col-lg-4 col-md-6 col-sm-12">
 					<a href="#" class="card">
 						<svg class="card-icon">
 							<use href="img/icons.svg#camera1" class="card-image"></use>
@@ -115,7 +116,7 @@
 						<span class="card-text">Видео</span>
 					</a>
 				</div>
-				<div class="col-2">
+				<div class="col-xl-2 col-lg-4 col-md-6 col-sm-12">
 					<a href="#" class="card">
 						<svg class="card-icon">
 							<use href="img/icons.svg#school1" class="card-image"></use>
@@ -129,69 +130,104 @@
 	<section class="section">
 		<div class="container">
 			<h2 class="section-title">Свежие вакансии</h2>
-			<div class="row">
-				<div class="case col d-flex align-items-center justify-content-around">
-					<img src="img/logo-company.svg" alt="image: logo of company" class="case-img">
-					<div class="case-container">
-						<h3 class="case__title">Front-end разработчик</h3>
-						<p class="case__subtitle">Технопарк, Казань</p>
+			<div class="case">
+				<div class="d-flex case-container">
+					<img src="img/logo-company.svg" alt="image: company logo">
+					<div class="case-text">
+						<h3 class="case-title">Front-end разработчик</h3>
+						<p class="case-subtitle">Технопарк, Казань</p>
 					</div>
-					<a href="#" class="button-prefab button-coin">65 000 ₽</a>
-					<div class="tags-group">
-						<span class="tags-lable">Требования:</span>
-						<a href="#" class="tag">React</a>
-						<a href="#" class="tag">Sass</a>
-						<a href="#" class="tag">Figma</a>
-					</div>
-					<a href="#" class="details">Подробнее →</a>
 				</div>
-				<div class="case col d-flex align-items-center justify-content-around">
-					<img src="img/logo-company.svg" alt="image: logo of company" class="case-img">
-					<div class="case-container">
-						<h3 class="case__title">Front-end разработчик</h3>
-						<p class="case__subtitle">Технопарк, Казань</p>
-					</div>
-					<a href="#" class="button-prefab button-coin">65 000 ₽</a>
-					<div class="tags-group">
-						<span class="tags-lable">Требования:</span>
-						<a href="#" class="tag">React</a>
-						<a href="#" class="tag">Sass</a>
-						<a href="#" class="tag">Figma</a>
-					</div>
-					<a href="#" class="details">Подробнее →</a>
+				<div class="case-container">
+					<button class="button-prefab case-button">65 000 ₽</button>
 				</div>
-				<div class="case col d-flex align-items-center justify-content-around">
-					<img src="img/logo-company.svg" alt="image: logo of company" class="case-img">
-					<div class="case-container">
-						<h3 class="case__title">Front-end разработчик</h3>
-						<p class="case__subtitle">Технопарк, Казань</p>
-					</div>
-					<a href="#" class="button-prefab button-coin">65 000 ₽</a>
-					<div class="tags-group">
+				<div class="case-container">
+					<div class="tags-group tags-box">
 						<span class="tags-lable">Требования:</span>
-						<a href="#" class="tag">React</a>
-						<a href="#" class="tag">Sass</a>
-						<a href="#" class="tag">Figma</a>
+						<div class="tags-container">
+							<a href="#" class="tag">React</a>
+							<a href="#" class="tag">Sass</a>
+							<a href="#" class="tag">Figma</a>
+						</div>
 					</div>
-					<a href="#" class="details">Подробнее →</a>
 				</div>
-				<div class="case col d-flex align-items-center justify-content-around">
-					<img src="img/logo-company.svg" alt="image: logo of company" class="case-img">
-					<div class="case-container">
-						<h3 class="case__title">Front-end разработчик</h3>
-						<p class="case__subtitle">Технопарк, Казань</p>
+				<div class="case-container">
+					<a href="#" class="case-details">Подробнее →</a>
+				</div>
+			</div>
+			<div class="case">
+				<div class="d-flex case-container">
+					<img src="img/logo-company.svg" alt="image: company logo">
+					<div class="case-text">
+						<h3 class="case-title">Front-end разработчик</h3>
+						<p class="case-subtitle">Технопарк, Казань</p>
 					</div>
-					<a href="#" class="button-prefab button-coin">65 000 ₽</a>
-					<div class="tags-group">
+				</div>
+				<div class="case-container">
+					<button class="button-prefab case-button">65 000 ₽</button>
+				</div>
+				<div class="case-container">
+					<div class="tags-group tags-box">
 						<span class="tags-lable">Требования:</span>
-						<a href="#" class="tag">React</a>
-						<a href="#" class="tag">Sass</a>
-						<a href="#" class="tag">Figma</a>
+						<div class="tags-container">
+							<a href="#" class="tag">React</a>
+							<a href="#" class="tag">Sass</a>
+							<a href="#" class="tag">Figma</a>
+						</div>
 					</div>
-					<a href="#" class="details">Подробнее →</a>
 				</div>
-				<div class="button-container d-flex justify-content-center">
-					<a href="#" class="button-prefab">Больше вакансий</a>
+				<div class="case-container">
+					<a href="#" class="case-details">Подробнее →</a>
+				</div>
+			</div>
+			<div class="case">
+				<div class="d-flex case-container">
+					<img src="img/logo-company.svg" alt="image: company logo">
+					<div class="case-text">
+						<h3 class="case-title">Front-end разработчик</h3>
+						<p class="case-subtitle">Технопарк, Казань</p>
+					</div>
+				</div>
+				<div class="case-container">
+					<button class="button-prefab case-button">65 000 ₽</button>
+				</div>
+				<div class="case-container">
+					<div class="tags-group tags-box">
+						<span class="tags-lable">Требования:</span>
+						<div class="tags-container">
+							<a href="#" class="tag">React</a>
+							<a href="#" class="tag">Sass</a>
+							<a href="#" class="tag">Figma</a>
+						</div>
+					</div>
+				</div>
+				<div class="case-container">
+					<a href="#" class="case-details">Подробнее →</a>
+				</div>
+			</div>
+			<div class="case">
+				<div class="d-flex case-container">
+					<img src="img/logo-company.svg" alt="image: company logo">
+					<div class="case-text">
+						<h3 class="case-title">Front-end разработчик</h3>
+						<p class="case-subtitle">Технопарк, Казань</p>
+					</div>
+				</div>
+				<div class="case-container">
+					<button class="button-prefab case-button">65 000 ₽</button>
+				</div>
+				<div class="case-container">
+					<div class="tags-group tags-box">
+						<span class="tags-lable">Требования:</span>
+						<div class="tags-container">
+							<a href="#" class="tag">React</a>
+							<a href="#" class="tag">Sass</a>
+							<a href="#" class="tag">Figma</a>
+						</div>
+					</div>
+				</div>
+				<div class="case-container">
+					<a href="#" class="case-details">Подробнее →</a>
 				</div>
 			</div>
 		</div>

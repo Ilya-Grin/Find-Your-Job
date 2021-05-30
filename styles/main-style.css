@@ -101,6 +101,14 @@ h6 {
 	margin: 0 30px 0 0;
 }
 
+.logo-link img {
+	width: 100%;
+}
+
+.header-image {
+	width: 100%;
+}
+
 .button-prefab {
 	background: #1a75e8;
 	border-radius: 5px;
@@ -211,41 +219,52 @@ h6 {
 	transition: fill 0.2s;
 }
 
-.button-coin {
-	padding: 10px 25px;
-}
-
 .case {
-	padding: 30px;
+	display: flex;
+	justify-content: space-around;
 	border: 1px solid #c5c9d5;
 	border-radius: 10px;
+	padding: 30px 0;
+	align-items: center;
 	margin: 0 0 20px 0;
 }
 
-.case:last-child {
-	margin: 0;
+.tags-box {
+	display: flex;
 }
 
-.case__title {
+.case-container {
+	display: flex;
+	align-items: center;
+}
+
+.case-text {
+	margin: 0 0 0 20px;
+}
+
+.case-title {
 	font-weight: bold;
 	font-size: 16px;
 	line-height: 19px;
 }
 
-.case__subtitle {
+.case-subtitle {
 	font-size: 14px;
 	line-height: 17px;
+	color: #111238;
+	opacity: 0.8;
 }
 
-.details {
+.case-details {
+	margin: 0 0 0 176px;
 	font-size: 14px;
 	line-height: 17px;
 	color: #1a75e8;
-	margin: 0 0 0 176px;
 }
 
-.button-container {
-	margin: 55px 0 95px 0;
+.case-button {
+	padding: 10px 25px;
+	font-weight: bold;
 }
 
 .mail {
