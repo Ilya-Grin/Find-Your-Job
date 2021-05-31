@@ -44,6 +44,10 @@
 		display: none;
 	}
 
+	.menu-registration {
+		display: none;
+	}
+
 	.burger {
 		display: block;
 		text-align: right;
@@ -55,6 +59,10 @@
 
 	.enable {
 		display: block;
+	}
+
+	.enable-registration {
+		display: flex;
 	}
 }
 
