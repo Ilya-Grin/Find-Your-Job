@@ -36,6 +36,10 @@
 		margin: 0;
 	}
 
+	.logo-link img {
+		min-width: 90px;
+	}
+
 	.card {
 		margin: 0 0 30px 0;
 	}
@@ -63,6 +67,53 @@
 
 	.enable-registration {
 		display: flex;
+	}
+
+	.hero-title {
+		font-size: 24px;
+		text-align: center;
+		line-height: 29px;
+	}
+
+	.hero-subtitle {
+		font-size: 16px;
+		text-align: center;
+		line-height: 140%;
+	}
+
+	.tags-lable {
+		text-align: center;
+	}
+
+	.tags-group {
+		text-align: center;
+	}
+
+	.header-image {
+		margin-top: 50px;
+		padding: 0 50px;
+	}
+
+	.section-title {
+		text-align: center;
+		margin: 50px 0 40px 0;
+		font-size: 18px;
+		line-height: 22px;
+	}
+	.mailing__box {
+		padding: 0 15px;
+	}
+	.footer__container {
+		text-align: center;
+		margin: 0 0 30px 0;
+	}
+
+	.footer__container:last-child {
+		margin: 0;
+	}
+
+	.footer {
+		padding: 50px 0 54px 0;
 	}
 }
 
