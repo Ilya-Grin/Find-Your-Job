@@ -1,5 +1,5 @@
 # Find-Your-Job
-[Find Your Job](https://ilya-grin.github.io/Find-Your-Job/) -  проект с немного недоработанной адаптацией под мобильные устройства, в порядке очереди на доработку.
+[Find Your Job](https://ilya-grin.github.io/Find-Your-Job/) -  полностью доделаный проект с мобильной адаптацией.
 ____
 Создатель: Илья Анусевич
 ## Технологии
